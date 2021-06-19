@@ -1,0 +1,58 @@
+  .heading
+  {
+    padding-top: 10px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-family: 'Mukta', sans-serif;
+  }
+  .heading_div
+  {
+    background: rgb(20, 184, 20) ; 
+    border-radius: 20px; 
+    color: white;
+    box-shadow:5px 5px 5px grey;
+    width: 40%;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 15px;
+  }
+  .accuracy_tag{
+    box-shadow:5px 5px 5px grey;
+    font-size: 12px;
+  }
+  .copy_right_footer{
+    bottom:0;
+    position: fixed;
+    text-align: center;
+    font-size: 18px;
+    background-color:lightcoral;
+    line-height: 30px;
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+
+
+  }
+  canvas{
+    border: 5px solid black;
+    border-radius: 15px;  
+    animation-name: colorChange ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+margin-top:120px;
+  }
+  @keyframes colorChange {
+    0%{box-shadow: 1px 1px 30px red;}
+    25%{box-shadow: 1px 1px 30px orange}
+    50%{box-shadow: 1px 1px 30px yellow}
+    75%{box-shadow: 1px 1px 30px orange}
+    100%{box-shadow: 1px 1px 30px red;}
+  }
